@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RestaActivity">
+
+    <EditText
+        android:id="@+id/txtNumR"
+        android:layout_width="243dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="108dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginRight="84dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@string/txtSum1" />
+
+    <EditText
+        android:id="@+id/txtNumR2"
+        android:layout_width="237dp"
+        android:layout_height="74dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginRight="84dp"
+        android:layout_marginBottom="492dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Name"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:text="@string/txtSum2" />
+
+    <EditText
+        android:id="@+id/txtTotal2"
+        android:layout_width="241dp"
+        android:layout_height="97dp"
+        android:layout_marginTop="548dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginRight="76dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@string/txtResultado" />
+
+    <Button
+        android:id="@+id/btnRes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="152dp"
+        android:layout_marginLeft="152dp"
+        android:layout_marginBottom="76dp"
+        android:onClick="Restar"
+        android:text="RESTAR"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
